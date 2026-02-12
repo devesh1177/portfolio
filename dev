@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devesh Sai Karthik | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background: #020617;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #cbd5f5;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #2563eb;
+      padding: 8px 14px;
+      border-radius: 999px;
+      margin: 6px 6px 0 0;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #020617;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arasavalli Devesh Sai Karthik</h1>
+    <p>ECE Student • Embedded Systems • HPC • Innovation Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a passionate Electronics and Communication Engineering student with strong
+        interest in embedded systems, high-performance computing, and real-world
+        innovation. I enjoy building smart engineering solutions, participating in
+        hackathons, and learning advanced technologies.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Smart Bin – AI Waste Segregation</h3>
+      <p>Developed an intelligent waste segregation system showcased in hackathons and innovation expos.</p>
+    </div>
+
+    <div class="card">
+      <h3>Smart Lighting with Voice Control</h3>
+      <p>Designed an ESP-based home automation system enabling voice control of lights.</p>
+    </div>
+
+    <div class="card">
+      <h3>Linux-Based HPC Setup</h3>
+      <p>Worked on high-performance computing cluster concepts and Linux configuration.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card skills">
+      <span>C</span>
+      <span>Python</span>
+      <span>Java</span>
+      <span>HTML</span>
+      <span>HDL</span>
+      <span>Embedded Systems</span>
+      <span>IoT</span>
+      <span>Linux & HPC</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p><strong>Phone:</strong> 8096244344</p>
+      <p><strong>Email:</strong> deveshsaikarthik@gmail.com</p>
+      <p><strong>Location:</strong> Vijayawada, Andhra Pradesh</p>
+      <a class="btn" href="mailto:deveshsaikarthik@gmail.com">Email Me</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Arasavalli Devesh Sai Karthik • Portfolio Website
+  </footer>
+</body>
+</html>
